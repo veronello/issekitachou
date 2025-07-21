@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  background-color: #f9f7f1;
+  margin: 0;
+}
+
+#menu {
+  width: 200px;
+  background-color: #dedede;
+  padding: 20px;
+  height: 100vh;
+}
+
+#main {
+  flex: 1;
+  padding: 20px;
+}
+
+h1.phrase {
+  font-size: 2em;
+  color: #333;
+}
+
+.reading-block p {
+  margin: 5px 0;
+  font-size: 1.1em;
+  color: #666;
+}
+
+#kanji {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.kanji-big {
+  font-size: 3em;
+  color: #444;
+}
