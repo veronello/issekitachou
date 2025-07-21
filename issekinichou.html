@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>IssekiTachou</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/hanzi-writer@3.0.0/dist/hanzi-writer.min.js"></script>
+</head>
+
+<body>
+  <div id="menu">
+    <h2>Menu</h2>
+    <ul>
+      <li><a href="#">Phrase of the Week</a></li>
+      <li><a href="#">All Proverbs</a></li>
+      <li><a href="#">All Kanji</a></li>
+      <li><a href="#">Saved</a></li>
+    </ul>
+  </div>
+
+  <div id="main">
+    <h1 class="phrase">一石二鳥</h1>
+
+    <div class="reading-block">
+      <p class="romaji">IS-SEKI-NI-CHOU-</p>
+      <p class="english">To kill two birds with one stone.</p>
+    </div>
+
+    <div id="kanji">
+      <!-- Dynamic kanji will be inserted here -->
+    </div>
+
+    <div id="kanji-info">
+      <h3>Kanji Info <small>(click a character)</small></h3>
+      <p id="kanji-char" class="kanji-big"></p>
+      <p id="reading">Click a kanji to see details</p>
+      <p id="meaning"></p>
+    </div>
+
+    <div id="I might add smth here" class="card">
+      <h3>ADDITIONAL/h3>
+      <p>(Coming soon...maybe)</p>
+    </div>
+  </div>
+
+  <div id="search">
+    <input type="text" placeholder="Search..." />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
